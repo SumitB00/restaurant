@@ -8,13 +8,15 @@ const Navbar = () => {
     const searchHandler =()=>{
         searchrRef.current.classList.toggle("active")
     };
+
+    
   return (
     <>
     <header class="header">
     <a href="" class="logo">
         <img src={logo} alt="" />
     </a>
-    <nav class="navbar">
+    <nav class="navbar ">
         <a href="#Home"> Home</a>
         <a href="#about"> About</a>
         <a href="#menu"> Menu</a>
